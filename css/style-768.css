@@ -1,0 +1,337 @@
+@media only screen and (max-width: 850px) {
+	.container{
+		padding: 0 20px;
+	}
+
+	header{
+		padding: 69px 0 101px;
+	}
+
+	.logo{
+		float: none;
+	}
+
+	nav{
+		float: none;
+		margin-top: 30px;
+	}
+
+	.menu__item{
+		margin-right: 52px;
+		margin-bottom: 25px;
+	}
+	
+	.menu__item:nth-child(5) {
+		margin-left: 2px;
+	}
+	
+	.menu__link{
+		padding: 0;
+	}
+
+	.menu__item:first-child {
+   		margin-right: 52px;
+	}
+
+	.slider {
+	    margin: 52px 0 37px;
+	}
+
+	.slider__title{
+		font-size: 48px;
+	    letter-spacing: -0.6px;
+	}
+
+	.slider__subtitle{
+		font-size: 24px;
+		margin-top: 6px;
+		margin-bottom: 1px;
+	    letter-spacing: -0.25px;
+	    max-width: 270px;
+	    overflow: hidden;
+	    white-space: nowrap;
+	}
+
+	.slider__text{
+		display: block;
+		max-width: 275px;
+		max-height: 100px;
+		overflow: hidden;
+		font-size: 16px;
+		letter-spacing: -0.05px;
+	}
+
+	.slider__text:first-line{
+		line-height: 31px;
+	}
+
+	.slider__img{
+		top: -24px;
+	    left: 105%;
+	}
+
+	.slider__item {
+	    padding: 105px 0 67px 22px;
+	}
+
+	.navigation{
+		margin-left: 71%;
+	}
+
+	.navigation__item {
+	    margin: 0 3px;
+	}
+
+	aside{
+		padding-top: 76px;
+	}
+
+	.about__info{
+		width: 67%;
+		margin-left: 26%;
+	}
+
+	.about__info--center{
+		width: 66%;
+		margin-left: 30%;
+	}
+
+	.about__info--right{
+		width: 67%;
+		margin-left: 37%;
+	}
+
+	.about__title{
+		font-size: 24px;
+		letter-spacing: -0.25px;
+	}
+
+	.about__title--right{
+		margin-left: 0;
+	}
+
+	.about__text{
+		margin: 4px 0 4px 0;
+		letter-spacing: -0.1px;
+		max-height: 145px;
+		overflow: hidden;
+	}
+
+	.about__link{
+		margin-right: 16px;
+	}
+
+
+	.about__link--center{
+		margin-right: 15px;
+	}
+
+	.about__link--right{
+		margin-right: 15px;
+	}
+
+	.about__img{
+		top: 2px;
+		left: 10px;
+	}
+
+	.about__img--oval{
+		left: 19px;
+		width: 30px;
+		background-position: 0 0;
+	}
+
+	.about__img--note{
+		left: 38px;
+		width: 30px;
+		background-position: 0 0;
+	}
+	
+	.article{
+		display: inline-block;
+		width: 44.5%;
+		margin: 100px 7% 72px 0;
+		
+	}
+
+	.article__block{
+		margin-bottom: 23px;
+		padding-top: 28px;
+	}
+
+	.article__block:after {
+    	display: none;
+   }
+
+	.article__title{
+		font-size: 24px;
+		display: block;
+		margin: 0 0 -1px 38px;
+	}
+
+	.article__subtitle{
+		font-size: 24px;
+		display: block;
+		margin-left: 38px;
+		letter-spacing: -0.25px;
+	}
+
+	.article__text{
+		margin: 8px 22px 38px 36px;
+		max-height: 150px;
+		overflow: hidden;
+	}
+
+	.navigation--white{
+		margin-left: 35%;	
+	}
+	
+	.navigation__item--white {
+	    margin: 0 2px;
+	}
+
+	.updates{
+		width: 47.5%;
+	}
+
+	.updates__title {
+  	  margin: 0 0 7px 66px;
+	}
+
+	.updates__head {
+  	  margin-bottom: 18px;
+  	  margin-left: 8px;
+	}
+
+	.updates__ul {
+	    margin-left: 8px;
+	    margin-bottom: 23px;
+	}
+
+	.updates__item {
+	    margin-bottom: 23px;
+	}
+
+	.updates__posted_at {
+	    display: inline-block;
+	    max-width: 255px;
+	    overflow: hidden;
+	}
+
+	.updates__more{
+		display: none;
+	}
+
+	.updates__more--less{
+		display: block;
+		margin-top: -1px;
+		letter-spacing: -0.25px;
+	}
+
+	.description {
+	    width: 28.1%;
+	    margin: 100px 2% 96px;
+	}
+
+	.description--first{
+	    margin-left: 0;
+	    margin-right: 6.4%;
+	    margin-top: 101px;
+	}
+
+	.description:last-child{
+		margin-left: 4.5%;
+		width: 28.5%;
+	}
+
+	.description__logo{
+		display: none;
+	}
+
+	.description__copyright{
+		display: none;
+	}
+
+	.description__text{
+		max-height: 165px;
+		overflow: hidden;
+		margin-top: 10px;
+		margin-left: 0;
+	}
+
+	.description__text--last{
+		margin-left: 3px;
+		position: relative;
+		left: 8px;
+	}
+
+	.description__title{
+		font-size: 24px;
+		letter-spacing: -0.25px;
+		margin-left: 11px;
+	}
+
+	.description__title--big{
+		display: none;
+	}
+
+	.description__title--less{
+		display: block;
+		margin-left: 0;
+	}
+	
+	.brandlogo{
+		width: 100%;
+	}
+	
+	.brandlogo__item:first-child { 
+		text-align: left;
+	} 
+
+	.brandlogo__item:last-child { 
+		text-align: right;
+	} 
+
+	.brandlogo__item:nth-child(2) a{ 
+		margin-right: 32%;
+	} 
+
+	.brandlogo__item:nth-child(3) a{ 
+		margin-right: 29%;
+	} 
+
+	.brandlogo__item:nth-child(5) a{ 
+		margin-right: 8%;
+	} 
+
+	.menu--footer{
+		margin-bottom: 9px;
+		width: 100%;
+	}
+
+	.designed_by{
+		text-align: right;
+		width: 100%;
+		margin-top: 2px;
+		letter-spacing: 0.1px;
+		margin-bottom: 86px;
+	}
+
+	.menu__item--footer{
+		margin-right: 44px;
+	}
+	
+	.menu__item--footer:first-child{
+		margin-right: 44px;
+	}
+
+	.menu__item--footer:nth-child(5){
+		margin-left: 0;
+	}
+
+	.menu__item--footer:last-child {
+    	margin-left: 0;
+	}
+
+
+}

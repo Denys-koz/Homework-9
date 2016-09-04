@@ -1,0 +1,23 @@
+.navigation__shape{
+	display: inline-block;
+	background-image: url(../img/ie8/nav-shape.png);
+}
+
+.active{
+	background-image: url(../img/ie8/nav-shape-active.png);
+}
+.navigation__shape--active{
+	display: none;
+}
+
+.navigation__shape--white{
+	background-image: url(../img/ie8/nav-shape-white.png);
+}
+
+.navigation__shape--active--white{
+	display: none;
+}
+
+.active-white{
+	background-image: url(../img/ie8/nav-shape-white-act.png);
+}
