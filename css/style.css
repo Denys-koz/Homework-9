@@ -472,19 +472,9 @@ footer>.container:first-child{
 
 .description{
 	display: inline-block;
-	width: 29.5%;
-	margin: 97px 3% 94px;
+	width: 33.333333333333336%;
+	margin: 97px 0 94px;
 	vertical-align: top;
-}
-
-.description--first{
-	margin-left: 0;
-	margin-top: 95px;
-	width: 29%;
-}
-
-.description:last-child{
-	margin-right: 0;
 }
 
 .description__logo{
@@ -516,8 +506,9 @@ footer>.container:first-child{
 	color: #787878;
 	text-shadow: 0px 1px 1px rgba(255, 255, 255, 1);
 	line-height: 24px;
+	width: 88%;
 	margin-top: 7px;
-	margin-left: 3px;
+	margin-left: 6%;
 	letter-spacing: -0.11px;
 }
 
@@ -526,18 +517,22 @@ footer>.container:first-child{
 	margin-left: 0;
 	letter-spacing: -0.1px;
 	max-height: 120px;
-	overflow: hidden
-
+	overflow: hidden;
 }
 
 .description__text--last{
-	margin-left: 3px;
+	margin-left: 12%;
 }
 
 .description__title{
 	font-size: 30px;
 	color: #454545;
 	text-shadow: 0px 1px 1px rgba(255, 255, 255, 1);
+	margin-left: 16px;
+}
+
+.description__title--last{
+	margin-left: 35px;
 }
 
 .description__title--less{

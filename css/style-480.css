@@ -257,11 +257,11 @@
 
 	.description__text{
 		max-height: 100px;
+		width: auto;
 	}
 
 	.description__text--last{
 		margin-left: 0;
-		left: 0;
 		margin-bottom: 83px;
 	}
 
@@ -273,7 +273,14 @@
 	.description__title--last{
 		margin-top: 3px;
 	}
+
+	.description--midle .description__title--less{
+		margin-left: -2px;
+	}
 	
+	.description--midle .description__text{
+		margin-left: 0;
+	}
 
 	.menu--footer{
 		width: 100%;

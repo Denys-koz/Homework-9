@@ -229,19 +229,11 @@
 	}
 
 	.description {
-	    width: 28.1%;
-	    margin: 100px 2% 96px;
+	    margin: 100px 0 96px;
 	}
 
 	.description--first{
-	    margin-left: 0;
-	    margin-right: 6.4%;
 	    margin-top: 101px;
-	}
-
-	.description:last-child{
-		margin-left: 4.5%;
-		width: 28.5%;
 	}
 
 	.description__logo{
@@ -251,24 +243,31 @@
 	.description__copyright{
 		display: none;
 	}
-
+	
 	.description__text{
 		max-height: 165px;
 		overflow: hidden;
 		margin-top: 10px;
 		margin-left: 0;
+		width: 87%;
+	}
+
+	.description--midle .description__text{
+		margin-left: 9%;
 	}
 
 	.description__text--last{
-		margin-left: 3px;
-		position: relative;
-		left: 8px;
+		margin-left: 18%;
 	}
-
+	
 	.description__title{
 		font-size: 24px;
 		letter-spacing: -0.25px;
-		margin-left: 11px;
+		margin-left: 18%;
+	}
+	
+	.description--midle .description__title--less{
+		margin-left: 9%;
 	}
 
 	.description__title--big{
