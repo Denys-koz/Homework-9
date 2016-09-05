@@ -546,26 +546,21 @@ footer>.container:first-child{
   	-o-background-size: cover;
   	background-size: cover;
   	font-size: 0;
+  	padding: 42px 0 45px;
 }
 
 .menu--footer{
-	float: none;
 	display: inline-block;
-	margin: 42px 0 45px;
 	width: 80%;
 	vertical-align: top;
 }
 
 .menu__item--footer{
-	margin-right: 44px;
+	margin-right: 5.8%;
 }
 
 .menu__item--footer:first-child{
-	margin-right: 44px;
-}
-
-.menu__item--footer:last-child{
-	margin-left: 2px;
+	margin-right: 5.7%;
 }
 
 .menu__link--footer{
@@ -576,7 +571,7 @@ footer>.container:first-child{
 	width: 20%;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 54px;
+	margin-top: 11px;
 	text-align: right;
 	font-family: "OpenSans Light";
 	font-size: 12px;

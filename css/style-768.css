@@ -17,7 +17,7 @@
 	}
 
 	.menu__item{
-		margin-right: 52px;
+		margin-right: 7.1%;
 		margin-bottom: 25px;
 	}
 	
@@ -30,7 +30,7 @@
 	}
 
 	.menu__item:first-child {
-   		margin-right: 52px;
+   		margin-right: 7.2%;
 	}
 
 	.slider {
@@ -308,20 +308,13 @@
 		width: 100%;
 	}
 
-	.designed_by{
-		text-align: right;
-		width: 100%;
-		margin-top: 2px;
-		letter-spacing: 0.1px;
-		margin-bottom: 86px;
-	}
 
 	.menu__item--footer{
-		margin-right: 44px;
+		margin-right: 6.1%;
 	}
 	
 	.menu__item--footer:first-child{
-		margin-right: 44px;
+		margin-right: 5.9%;
 	}
 
 	.menu__item--footer:nth-child(5){
@@ -332,5 +325,12 @@
     	margin-left: 0;
 	}
 
+	.designed_by{
+		text-align: right;
+		width: 100%;
+		margin-top: 2px;
+		letter-spacing: 0.1px;
+		margin-bottom: 41px;
+	}
 
 }
