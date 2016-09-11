@@ -21,3 +21,62 @@
 .active-white{
 	background-image: url(../img/ie8/nav-shape-white-act.png);
 }
+
+
+@media only screen and (max-width: 850px) {
+	.bottom{
+  		padding: 0;
+  		min-height: 114px;
+	}
+	.menu--footer {
+    	margin-top: 23px;
+	}
+
+	.designed_by{
+		margin-bottom: 20px;
+	}
+}
+
+
+@media only screen and (max-width: 684px) {
+
+
+	nav {
+		height: 26px;
+	}
+
+	.menu--drop{
+		width: 150px;
+		margin: 0 auto;
+	}
+
+	.menu--drop:hover{
+		margin-left: -75px;
+	}
+
+	.menu__item--drop{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		
+	}
+
+	.menu__item--drop:first-child{
+		margin-right: 0;
+		padding: 0;
+	}
+
+	.menu__item--drop:first-child .menu__link{
+		padding: 0;
+	}
+
+	.menu--drop .menu__link{
+		padding: 0 10px;
+		width: 150px;
+	}
+
+	
+	
+	
+
+}

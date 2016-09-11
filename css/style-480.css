@@ -26,9 +26,9 @@
 		height: auto;
 		z-index: 3;
 		background: rgba(54,40,62,0.75);
-		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, StartColorStr='#BF36283E', EndColorStr='#BF36283E')"; /* For IE8 */
-		filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#BF36283E', EndColorStr='#BF36283E'); /* For IE6,IE7 */
-		zoom: 1!important; /* Trigger hasLayout */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, StartColorStr='#BF36283E', EndColorStr='#BF36283E')"; 
+		filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#BF36283E', EndColorStr='#BF36283E'); 
+		zoom: 1!important; 
 		border: 1px solid #111b21;
 		-webkit-border-radius: 10px;
 		-moz-border-radius: 10px;
@@ -68,9 +68,9 @@
 
 	.menu__item--drop:hover{
 		background: rgba(45,36,50,0.5);
-		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, StartColorStr='#7F2D2432', EndColorStr='#7F2D2432')"; /* For IE8 */
-		filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#7F2D2432', EndColorStr='#7F2D2432'); /* For IE6,IE7 */
-		zoom: 1!important; /* Trigger hasLayout */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, StartColorStr='#7F2D2432', EndColorStr='#7F2D2432')"; 
+		filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#7F2D2432', EndColorStr='#7F2D2432'); 
+		zoom: 1!important; 
 		
 	}
 
